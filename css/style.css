@@ -209,7 +209,29 @@ background: #dfffea;}
   margin-top: 0;
   padding-block: 100px;
 }
-
+	          ::-webkit-scrollbar-track
+{
+background-color: #ffffff;
+}
+::-webkit-scrollbar {
+    width: 13px;
+    height: 5px;
+    background-color: #f5f8fc;
+}
+::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+    border: 2px solid #2a2e9f;
+    background-color: #435be4;
+background-image: -webkit-linear-gradient(45deg,
+rgba(255, 255, 255, .2) 25%,
+transparent 25%,
+transparent 50%,
+rgba(255, 255, 255, .2) 50%,
+rgba(255, 255, 255, .2) 75%,
+transparent 75%,
+transparent)
+}
 @media (max-width: 568px) {
   .herobutton {
     width: 100%;
